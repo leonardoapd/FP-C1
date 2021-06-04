@@ -1,0 +1,72 @@
+estudiantes = [
+    {'nombre':'Juan David',
+     'codigo':'10000001',
+     'carrera':'Ingeniería Electrónica',
+     'edad':19,
+     'materias':{'Algebra':2.1, 'Sonidos':4.3, 'Fisica':3.9, 'Ondas':2.2, 'Religion':4.6},
+     'semestre':2
+    },
+    {'nombre':'Maria Claudia',
+     'codigo':'10000002',
+     'carrera':'Medicina',
+     'edad':21,
+     'materias':{'Textos escritos':5, 'Calculo':4, 'Fisica':2.9, 'Pediatría':2.8, 'Religion':4.9},
+     'semestre':1
+    },
+    {'nombre':'Luisa',
+     'codigo':'10000003',
+     'carrera':'Ingeniería Civil',
+     'edad':21,
+     'materias':{'Topografía':3.3, 'Máquinas':4.1, 'Textos escritos':3.4, 'Etica':2, 'Financiera':1.9},
+     'semestre':4
+    },
+    {'nombre':'Luisa',
+     'codigo':'10000004',
+     'carrera':'Ingeniería de Alimentos',
+     'edad':17,
+     'materias':{'Algebra':3, 'Financiera':5, 'Cuerpo Humano':3.9, 'Proteinas':5, 'Auditoria':3.7},
+     'semestre':4
+    },
+    {'nombre':'Juan Esteban',
+     'codigo':'10000005',
+     'carrera':'Artes escénicas',
+     'edad':24,
+     'materias':{'Teatro':1, 'Financiera':0.8, 'Audiciones':4.4, 'Etica':4.3, 'Expresión oral':1.1},
+     'semestre':3
+    },
+    {'nombre':'Luis Felipe',
+     'codigo':'10000006',
+     'carrera':'Contaduría Pública',
+     'edad':18,
+     'materias':{'Matemáticas 1':3.2, 'Contabilidad':4.1, 'Humanidades':1.9, 'Etica':3.5, 'Religion':3.8},
+     'semestre':7
+    },
+    {'nombre':'Carlos Mario',
+     'codigo':'10000007',
+     'carrera':'Medicina',
+     'edad':18,
+     'materias':{'Sistema circulatoria':1, 'Calculo':2, 'Fisica':3, 'Etica':4.4, 'Sistema digestivo':5},
+     'semestre':6
+    },
+    {'nombre':'Juan Jacobo',
+     'codigo':'10000008',
+     'carrera':'Ingeniería Informática',
+     'edad':19,
+     'materias':{'Programación 1':3.2, 'Programación 2':0, 'Software':5, 'Bases de datos':5, 'Algebra':4.7},
+     'semestre':1
+    },
+    {'nombre':'Andrea',
+     'codigo':'10000009',
+     'carrera':'Ingeniería Mecánica',
+     'edad':21,
+     'materias':{'Robots':1.7, 'Logística':2.5, 'Variables':3.8, 'Electrónica':4.2, 'Fisica':5},
+     'semestre':3
+    },
+    {'nombre':'Valeria',
+     'codigo':'100000010',
+     'carrera':'Ingeniería Eléctrica',
+     'edad':20,
+     'materias':{'Algebra':3, 'Calculo':3, 'Fisica':3, 'Etica':3, 'Religion':4},
+     'semestre':7
+    }]
+
