@@ -20,6 +20,16 @@ def buscarPorCarrera(dicc, carrera):
   Retorna una lista con los nombres de los estudiantes coincidentes, y como últmo dato de la lista, el promedio de edad los estudiantes coincidentes.
   """
   resultado = []
+  divisor = 0 
+  suma = 0 
+  for i in range(len(dicc)):
+    if dicc[i].get("carrera") == carrera:
+      resultado.append(dicc[i].get("nombre"))
+      suma += dicc[i].get("edad")
+      divisor += 1
+  promedio = suma/divisor
+  resultado.append(promedio)
+
   return resultado
 
 def encontrarMayorSemestre(dicc):
