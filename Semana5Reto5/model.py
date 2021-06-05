@@ -20,14 +20,13 @@ def buscarPorCarrera(dicc, carrera):
   Retorna una lista con los nombres de los estudiantes coincidentes, y como últmo dato de la lista, el promedio de edad los estudiantes coincidentes.
   """
   resultado = []
-  divisor = 0 
-  suma = 0 
+  divisor = suma = 0
   for i in range(len(dicc)):
     if dicc[i].get("carrera") == carrera:
       resultado.append(dicc[i].get("nombre"))
       suma += dicc[i].get("edad")
       divisor += 1
-  promedio = suma/divisor
+  promedio = suma//divisor
   resultado.append(promedio)
 
   return resultado
@@ -40,6 +39,13 @@ def encontrarMayorSemestre(dicc):
   Retorna una lista con los nombres de los estudiantes que estén en el semestre más alto de todos: Ej, si el semestre más alto reportado es 9, entonces la lista debe tener los estudiantes que estén en 9 semestre.
   """
   lista = []
+  mayor = dicc[0].get("semestre")
+  for i in range(len(dicc)):
+      if dicc[i].get("semestre") > mayor:
+        mayor = dicc[i].get("semestre")
+  for j in range(len(dicc)):      
+    if dicc[j].get("semestre") == mayor:
+      lista.append(dicc[j].get("nombre"))
   return lista
 
 
