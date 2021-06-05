@@ -14,7 +14,7 @@ def main():
   print(m.buscarNombre(d.estudiantes,"Luisa"))
   print(m.buscarPorCarrera(d.estudiantes,"Medicina"))
   print(m.encontrarMayorSemestre(d.estudiantes))
-  print(m.quienHaPerdido([], "Algebra"))
+  print(m.quienHaPerdido(d.estudiantes, "Algebra"))
   print(m.calcularPromedioNota([]))
 
 main()
