@@ -50,8 +50,6 @@ def encontrarMayorSemestre(dicc):
       lista.append(dicc[j].get("nombre"))
   return lista
 
-
-
 def quienHaPerdido(dicc, materia):
   """
   TODO: detaller información
@@ -68,17 +66,22 @@ def quienHaPerdido(dicc, materia):
 
 def calcularPromedioNota(dicc):
   """
-  TODO: detaller información
-
-  ingresa una lista con un diccionario de estudiantes.
+  Ingresa una lista con un diccionario de estudiantes.
   Retorna un diccionario con el promedio de notas de los estudiantes donde las llaves del diccionario es los códigos de los estudiantes, y los valores del diccionario es el promedio de notas de las materias.
   """
-
   resultado = {}
+  promedio = [] #Se inicializa una lista vacia pra guardar los valores de las materias.
+  suma = promediado = conteo = 0 #Se inicializan las variables para calcular el promedio de notas.
 
   for i in range(len(dicc)):
-    promedio = dicc[i].get("materias").values()
-
-    resultado[dicc[i].get("codigo")] = 
-  # usar el dicc.values() le puede ser muy útil en esta función
+    promedio = dicc[i].get("materias").values() #Se obtienen los valores del diccionario "materias"
+    promedio = list(promedio) #Se convierte el resultado de la linea anterior en lista para poder manipularlo
+    for j in range(len(promedio)):
+      suma += promedio[j] 
+      conteo += 1
+    promediado = suma/conteo #Se calcula el promedio de las notas del primer estudiante
+    resultado[dicc[i].get("codigo")] = promediado #Se crea un diccionario con la llave "codigo" y con los valores promediados
+    conteo = suma = 0
+    promedio = []
+    
   return resultado
