@@ -1,0 +1,7 @@
+ca,res,tin,cal,fer,min,tus,pa,ti,gro,o
+al,on,por,hi,fil,a,e,me,mas,tar,pin
+pa,tal,rin,mor,an,feo,mio,tra,san,i,ro
+rit,gel,pio,tac,si,no,ne,llo,zul,fin,u
+grt,lim,azu,se,ble,ar,ir,ur,ion,n,s
+0,1,2,3,4,5,6,7,8,9,t
+mar,sol,via,jal,re,geo,gri,sin,pil,tas,mer
