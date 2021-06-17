@@ -8,7 +8,7 @@ def cargarClave():
   # Se inicializa una matriz vacia para guardar los datos de la clave
   lista = [] 
   # Se lee el archivo clave.txt
-  archivo = open("C:\\Users\\lperd\\Documents\\py\\FP-C1\\Semana6Reto6\\Data\\clave.txt","r")
+  archivo = open("Semana6Reto6/Data/clave.txt","r")
   for linea in archivo:
     columnas = []
   # Se crea una lista de los elementos del archivo claves.txt que estaban separados por ","
@@ -33,7 +33,7 @@ def cargarAlias():
   # Se inicializa una matriz vacia para guardar los datos del alias
   listaAlias = [] 
   # Se lee el archivo alias.txt
-  archivo = open("C:\\Users\\lperd\\Documents\\py\\FP-C1\\Semana6Reto6\\Data\\alias.txt","r")
+  archivo = open("Semana6Reto6/Data/alias.txt","r")
   aux = archivo.readline()
   # Se separa el texto contenido en el archivo alias.txt y se guarda en una lista 
   aux = aux.split("$") 
