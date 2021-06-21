@@ -39,6 +39,10 @@ def main():
     print(newDataframe2)
     print()
     print(newDataframe3)
+    print()
+    #Se imprime el menor de una lista usando recursion
+    print("El elemento menor de la lista es: ", mod.elMenorRec(costoDeMatricula))
 
+    mod.haciaExcel(newDataframe3)
 
 main()

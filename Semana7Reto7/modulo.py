@@ -36,3 +36,15 @@ def matriculaCostosa(dataframe, costo):
 #Funcion para exportar un archivo excel
 def haciaExcel(dataframe):
     dataframe.to_excel("Semana7Reto7/archivoExcel.xlsx")
+
+#Funcion para determinar el menor de una lista usando recursion
+def elMenorRec(lista):
+    if len(lista) == 1:
+        return lista[0]
+    else:
+        #Se utiliza rodajas de una lista para usar recursion
+        menor = elMenorRec(lista[1:])
+        if menor < lista[0]:
+            return menor
+        else:
+            return lista[0]
